@@ -1,0 +1,37 @@
+html {   /*編輯html裡的文字*/
+   font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Playfair Display', serif;   /*google字體*/
+    background-color: cornsilk;
+}
+
+body {
+    width: 600px;
+    margin: 10px 450px;           /*邊界:上 右 下 左*/
+    background-color: rosybrown;
+    padding: 0 20px 250px 20px;   /*留白:上 右 下 左*/
+}
+
+h2 {    /*編輯<h2>裡的文字*/
+    font-size: 50px;
+    text-align: center;      /*標題位置:置中*/
+    border: black 1px dashed;  /*邊框:顏色 粗細 樣式*/
+    margin: 10px;               
+    padding: 10px;
+    text-shadow: 2px 1px 0 black;  /*陰影:水平 垂直 模糊半徑 顏色*/
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+p,li {   /*編輯<p>, <li>裡的文字*/
+    font-size: 20px;
+    line-height: normal;      /*行距*/
+    letter-spacing: 2px;      /*字和字之間的距離*/
+}
+
+.hiphop {               /*class: .名子*/
+    font-size: 30px;
+    color: yellow;
+}
